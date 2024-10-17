@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Happy Birthday!</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        body {
+            font-family: 'Arial', sans-serif;
+            background-color: #ffefd5;
+            color: #333;
+            text-align: center;
+            padding: 20px;
+        }
+        .container {
+            max-width: 600px;
+            margin: 0 auto;
+            background-color: #fff;
+            border-radius: 10px;
+            padding: 20px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        }
+        h1 {
+            font-size: 3em;
+            color: #ff6f61;
+            margin-bottom: 20px;
+        }
+        .message p {
+            font-size: 1.5em;
+            margin: 20px 0;
+            color: #555;
+        }
+        .birthday-card {
+            font-size: 1.2em;
+            background-color: #ffe4e1;
+            padding: 20px;
+            border-radius: 5px;
+            margin-top: 20px;
+        }
+        .birthday-card p {
+            margin: 0;
+        }
+        footer {
+            margin-top: 40px;
+            font-size: 0.9em;
+            color: #777;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1 id="title">Happy Birthday!</h1>
+        <div class="message">
+            <p id="birthdayMessage">Wishing you a day filled with happiness and a year filled with joy. Have a fantastic day!</p>
+        </div>
+        <div class="birthday-card">
+            <p id="cardMessage">Here's to another year of wonderful you! 🎉</p>
+        </div>
+        <footer>
+            <p id="footerMessage">Made with love ❤️ on your special day!</p>
+        </footer>
+    </div>
+
+    <script>
+        // Customize the birthday messages using JavaScript
+        document.getElementById("title").innerHTML = "A Very Special Happy Birthday!";
+        document.getElementById("birthdayMessage").innerHTML = "May your day be as bright as your smile and as lovely as you!";
+        document.getElementById("cardMessage").innerHTML = "You are truly a star, enjoy every moment of your day! 🌟";
+        document.getElementById("footerMessage").innerHTML = "Wishing you love, joy, and all the good things! 🎂";
+    </script>
+</body>
+</html>
